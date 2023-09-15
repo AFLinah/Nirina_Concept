@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500&display=swap');
+
+* {
+    font-family: 'Raleway', serif;
+    font-size: 22px;
+}
+
+.top-section {
+    padding-top: 200px;
+}
+
+.logo {
+    width:140px;
+    height: auto;
+}
+
+.header-custom {
+    background-color: #d0d0d0;
+    /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);  */
+}
+
+.header-custom .nav-link:hover, .header-custom .nav-link:focus {
+    color: #198754;
+}
+
+.menu-deroulant{
+    background-color: #d0d0d0;
+    border-radius: 0;
+}
+  
+.menu-deroulant li:hover a {
+    color: #198754;
+    background-color: #d0d0d0;
+}
+
+.banner {
+    background-image: url(assets/photo/realisation/baner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+
+.btn-link {
+    background-color: #198754;
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-link:hover {
+    background-color: #d0d0d0;
+    color: #000;
+}
+
+.bg-green {
+    background-color: #198754;
+}
+
+.bg-grey {
+    background-color: #d0d0d0;
+}
+
+.about {
+    background-image: url(assets/photo/installation_electrique.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    color: #fff;
+}
+
+.footer .footer-link {
+    color: #000;
+}
+
+.footer .footer-link:hover, .footer .footer-link:focus {
+    color: #198754;
+}
+
+@media screen and (max-width:768px) {
+    * {
+        font-size: 18px;
+    }
+}
+
